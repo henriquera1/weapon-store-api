@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>web-store-api</name>
+    </assembly>
+    <members>
+        <member name="M:web_store_api.Controllers.WeaponsController.GetWeapons">
+            <summary>
+            Retorna todas as armas do banco de dados
+            </summary>
+            <returns>Lista de Armas</returns>
+        </member>
+        <member name="M:web_store_api.Controllers.WeaponsController.GetWeaponsByType(System.String)">
+            <summary>
+            Retorna uma lista de armas pelo seu tipo
+            </summary>
+            <param name="type">Tipo da arma</param>
+            <returns>Lista de Armas de um determinado tipo</returns>
+        </member>
+        <member name="M:web_store_api.Controllers.WeaponsController.GetWeaponsByYear">
+            <summary>
+            Retorna uma lista de armas ordenadas pelo Ano de fabricação
+            </summary>
+            <returns>Lista de Armas por Ano</returns>
+        </member>
+        <member name="M:web_store_api.Controllers.WeaponsController.GetWeaponById(System.Int32)">
+            <summary>
+            Retorna uma arma com id específico
+            </summary>
+            <param name="id">id da arma</param>
+            <returns>Uma arma com id informado</returns>
+        </member>
+        <member name="M:web_store_api.Controllers.WeaponsController.Post(web_store_api.Application.DTOs.WeaponDTO)">
+            <summary>
+            Adiciona ao banco de dados uma nova arma
+            </summary>
+            <remarks>
+            Exemplo de request:
+            <para>
+                POST api/v1/Weapons
+            </para>
+            <para>
+            {
+            </para>
+            <para>
+                "id": 1,
+            </para>
+            <para>
+                "name": "M4A1",
+            </para>
+            <para>
+                "brand":"FN Herstal",
+            </para>
+            <para>
+                "image":"http://www.imagens/m4a1.png",
+            </para>
+            <para>
+                "type":"Carabina",
+            </para>
+            <para>
+                "caliber":"5,56mm",
+            </para>
+            <para>
+                "year": 1984,
+            </para>
+            <para>
+            }
+            </para>
+            </remarks>
+            <param name="weaponDto">Objeto da Arma</param>
+            <returns>O objeto criado</returns>
+        </member>
+        <member name="M:web_store_api.Controllers.WeaponsController.Put(System.Int32,web_store_api.Application.DTOs.WeaponDTO)">
+            <summary>
+            Atualiza uma arma existente de acordo com o id informado
+            </summary>
+            <param name="id">Id da arma que queira atualizar</param>
+            <param name="weaponDto">Novo corpo atualizado</param>
+            <returns>O Objeto atualizado</returns>
+        </member>
+        <member name="M:web_store_api.Controllers.WeaponsController.Delete(System.Int32)">
+            <summary>
+            Remove do banco de dados uma arma com id informado
+            </summary>
+            <param name="id">Id da arma</param>
+            <returns>A arma removida</returns>
+        </member>
+    </members>
+</doc>
