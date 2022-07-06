@@ -8,6 +8,7 @@ using web_store_api.Application.DTOs;
 using web_store_api.Application.Interfaces;
 using web_store_api.Domain.Entities;
 using web_store_api.Domain.Interfaces;
+using web_store_api.Domain.Pagination;
 
 namespace web_store_api.Application.Services
 {
@@ -23,9 +24,9 @@ namespace web_store_api.Application.Services
             _mapper = mapper;
         }
     
-        public async Task<IEnumerable<WeaponDTO>> GetWeapons()
+        public async Task<IEnumerable<WeaponDTO>> GetWeapons(WeaponsParameters weaponsParameters)
         {
-            var weaponsEntity = await _wr.GetWeaponsAsync();
+            var weaponsEntity = await _wr.GetWeaponsAsync(weaponsParameters);
             return _mapper.Map<IEnumerable<WeaponDTO>>(weaponsEntity);
         }
         

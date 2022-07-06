@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using web_store_api.Domain.Entities;
 using web_store_api.Domain.Interfaces;
+using web_store_api.Domain.Pagination;
 using web_store_api.Infra.Context;
 
 namespace web_store_api.Infra.Repositories
@@ -19,9 +20,12 @@ namespace web_store_api.Infra.Repositories
             _context = context;
         }
 
-        public async Task<IEnumerable<Weapon>> GetWeaponsAsync()
+        public async Task<IEnumerable<Weapon>> GetWeaponsAsync(WeaponsParameters weaponsParameters)
         {
-            return await _context.Weapons.ToListAsync();
+            return await _context.Weapons.OrderBy(x => x.Name)
+                                         .Skip((weaponsParameters.PageNumber - 1) * weaponsParameters.PageSize)
+                                         .Take(weaponsParameters.PageSize)
+                                         .ToListAsync();
         }
 
         public async Task<IEnumerable<Weapon>> GetWeaponsByYearAsync()

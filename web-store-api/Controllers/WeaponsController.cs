@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using web_store_api.Application.DTOs;
 using web_store_api.Application.Interfaces;
+using web_store_api.Domain.Pagination;
 
 namespace web_store_api.Controllers
 {
@@ -29,9 +30,9 @@ namespace web_store_api.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(WeaponDTO), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<IEnumerable<WeaponDTO>>> GetWeapons()
+        public async Task<ActionResult<IEnumerable<WeaponDTO>>> GetWeapons([FromQuery]WeaponsParameters parameters)
         {
-            var weapons = await _ws.GetWeapons();
+            var weapons = await _ws.GetWeapons(parameters);
 
             if (weapons == null)
                 return NotFound("Não foi encontrada nenhuma arma no banco de dados.");

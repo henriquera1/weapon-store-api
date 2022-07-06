@@ -8,6 +8,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-store-api.Domain", "..\web-store-api.Domain\web-store-api.Domain.csproj", "{00EDFA96-21B1-463A-94C6-297D4B8654DB}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-store-api.Application", "..\web-store-api.Application\web-store-api.Application.csproj", "{BA14C6C3-4B55-44FE-B834-B1C8D7881224}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A0B59E2-D730-4DF3-8B1F-211E58E05166} = {5A0B59E2-D730-4DF3-8B1F-211E58E05166}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "web-store-api.Infra", "..\web-store-api.Infra\web-store-api.Infra.csproj", "{5A0B59E2-D730-4DF3-8B1F-211E58E05166}"
 EndProject

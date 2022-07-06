@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace web_store_api.Test
+namespace web_store_api.Application.Shared
 {
-    public class DBUnitTestMockInitializer
+    public class EmailSender
     {
-        public DBUnitTestMockInitializer()
-        {
-
-        }
     }
 }

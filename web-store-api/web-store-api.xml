@@ -4,7 +4,7 @@
         <name>web-store-api</name>
     </assembly>
     <members>
-        <member name="M:web_store_api.Controllers.WeaponsController.GetWeapons">
+        <member name="M:web_store_api.Controllers.WeaponsController.GetWeapons(web_store_api.Domain.Pagination.WeaponsParameters)">
             <summary>
             Retorna todas as armas do banco de dados
             </summary>
