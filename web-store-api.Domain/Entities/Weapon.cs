@@ -18,16 +18,14 @@ namespace web_store_api.Domain.Entities
  
         public string Type { get; set; }
 
-    
         public string Caliber { get; set; }
 
-      
         public int Capacity { get; set; }
-
       
         public int Year { get; set; }
+        
+        public decimal Price { get; set; }
 
-       
         public bool IsIlegal { get; set; }
     }
 }

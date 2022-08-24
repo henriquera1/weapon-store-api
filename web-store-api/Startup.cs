@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -14,6 +15,7 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using web_store_api.CrossCutting.IoC;
+using web_store_api.Infra.Context;
 
 namespace web_store_api
 {
@@ -29,6 +31,11 @@ namespace web_store_api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string mySqlConnection = Configuration.GetConnectionString("DefaultConnection");
+
+            services.AddDbContextPool<AppDbContext>(opt =>
+                        opt.UseLazyLoadingProxies().UseMySql(mySqlConnection,
+                            ServerVersion.AutoDetect(mySqlConnection)));
 
             services.AddInfrastructure(Configuration);
 

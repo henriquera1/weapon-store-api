@@ -41,6 +41,9 @@ namespace web_store_api.Application.DTOs
         [Range(1288, 2022)]
         public int Year { get; set; }
 
-        
+        [Required(ErrorMessage = "O Preço é obrigatório", AllowEmptyStrings = false)]
+        public decimal Price { get; set; }
+
+
     }
 }
