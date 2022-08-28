@@ -210,7 +210,7 @@
         "projectName": "web-store-api.Domain",
         "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\Source\\Repos\\weapon-store-api\\web-store-api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",

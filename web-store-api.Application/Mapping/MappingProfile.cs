@@ -14,6 +14,9 @@ namespace web_store_api.Application.Mapping
         public MappingProfile()
         {
             CreateMap<Weapon, WeaponDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
+            CreateMap<Cart, CartDTO>().ReverseMap();
+            CreateMap<Address, AddressDTO>().ReverseMap();
         }
     }
 }

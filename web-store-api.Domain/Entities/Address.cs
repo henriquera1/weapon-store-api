@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace web_store_api.Domain.Entities
 {
-    public class Address
+    public class Address : BaseEntity
     {
         public string Street { get; set; }
 

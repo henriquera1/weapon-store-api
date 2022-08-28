@@ -9,7 +9,6 @@ namespace web_store_api.Application.DTOs
 {
     public class WeaponDTO
     {
-        public int Id { get; set; }
 
         [Required(ErrorMessage = "O nome é obrigatório.", AllowEmptyStrings = false)]
         [MinLength(2, ErrorMessage = "Insira um nome com dois ou mais caracteres.")]
