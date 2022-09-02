@@ -28,7 +28,7 @@ namespace web_store_api.CrossCutting.IoC
             services.AddScoped<IWeaponRepository, WeaponRepository>();
             services.AddScoped<IWeaponService, WeaponService>();
 
-            services.AddAutoMapper(typeof(MappingProfile));
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             return services;
         }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace web_store_api.Application.DTOs
+namespace web_store_api.Application.DTOs.Weapon
 {
-    public class CartDTO
+    public class UpdateWeaponDto
     {
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api\\web-store-api.csproj": {}
+    "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api\\web-store-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj": {
+    "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj",
         "projectName": "web-store-api.Application",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj",
+        "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\obj\\",
+        "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj": {
-                "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj"
+              "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj": {
+                "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj"
               }
             }
           }
@@ -87,7 +87,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -96,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj": {
+    "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
         "projectName": "web-store-api.CrossCutting",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,11 +125,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj": {
-                "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj"
+              "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj": {
+                "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj"
               },
-              "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj": {
-                "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj"
+              "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj": {
+                "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj"
               }
             }
           }
@@ -190,27 +191,42 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj": {
+    "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj",
         "projectName": "web-store-api.Domain",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj",
+        "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\obj\\",
+        "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -282,27 +298,42 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj": {
+    "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj",
         "projectName": "web-store-api.Infra",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj",
+        "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Infra\\obj\\",
+        "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -319,8 +350,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj": {
-                "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj"
+              "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj": {
+                "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Domain\\web-store-api.Domain.csproj"
               }
             }
           }
@@ -378,27 +409,42 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api\\web-store-api.csproj": {
+    "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api\\web-store-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api\\web-store-api.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api\\web-store-api.csproj",
         "projectName": "web-store-api",
-        "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api\\web-store-api.csproj",
+        "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api\\web-store-api.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api\\obj\\",
+        "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -415,8 +461,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj"
+              "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj"
               }
             }
           }
@@ -490,7 +536,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -502,7 +549,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

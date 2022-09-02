@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+XKLG3XpT8B3nQonOBi0wFCuZrUt6qepPLrpD7rMFu4uY04vKd0GNPjvbL5cEJvzGsx0n9YM/LCBxxorNaTq1w==",
+  "dgSpecHash": "gVzCNRisMKorae+Ha6ewCouy8dpe4mkI5GUvqg4AJSTztpmN8m8vuQNywTkUtvjlh6jGm7fZ9h9xuH6mVsSbYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -32,7 +32,10 @@
     "C:\\Users\\henri\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\henri\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\henri\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\henri\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kMT0ftQZ6CJlM3GuS5EHqBiCAV9wVFSiE0ik12mQtTIUHn+P4lhNIK5+/EFlIUudpHgbjfRX1myVrTuLmlEbFA==",
+  "dgSpecHash": "MGCgb3oyO4CcRxnKupXVcQQ1mmvmDg3L65sa2SACSsd1Kznhtctatnr8dNgnBrZvT9R1jnUmHksTg8W3o+Oleg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henri\\source\\repos\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj",
+  "projectFilePath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Application\\web-store-api.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henri\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
