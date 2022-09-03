@@ -1265,7 +1265,7 @@
       "projectName": "web-store-api.CrossCutting",
       "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\web-store-api.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\Source\\Repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1353,20 +1353,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

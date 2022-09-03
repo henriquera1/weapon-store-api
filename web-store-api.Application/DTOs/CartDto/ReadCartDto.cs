@@ -3,24 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using web_store_api.Domain.Entities;
 
-namespace web_store_api.Domain.Entities
+namespace web_store_api.Application.DTOs.CartDto
 {
-    public class Cart : BaseEntity
+    public class ReadCartDto
     {
+        public int Id { get; set; }
+
         public DateTime PurchaseDate { get; set; }
 
         public int Quantity { get; set; }
 
         public decimal Price { get; set; }
 
-        public int WeaponId { get; set; }
+        public Weapon Weapon { get; set; }
 
-        public virtual Weapon Weapon { get; set; }
-
-        public int UserId { get; set; }
-
-        public virtual User User { get; set; }
+        public User User { get; set; }
 
         public bool IsActive { get; set; }
 

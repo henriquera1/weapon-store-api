@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace web_store_api.Application.DTOs.Weapon
+namespace web_store_api.Application.DTOs.WeaponDto
 {
-    public class CreateWeaponDto
+    public class ReadWeaponDto
     {
     }
 }
