@@ -1215,7 +1215,7 @@
       "projectName": "web-store-api.Infra",
       "projectPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj",
       "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henri\\Source\\Repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\obj\\",
+      "outputPath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\henri\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1296,20 +1296,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

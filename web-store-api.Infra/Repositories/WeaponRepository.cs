@@ -28,9 +28,9 @@ namespace web_store_api.Infra.Repositories
                                          .ToListAsync();
         }
 
-        public async Task<IEnumerable<Weapon>> GetWeaponsByYearAsync()
+        public async Task<IEnumerable<Weapon>> GetWeaponsByIlegalAsync()
         {
-            return await _context.Weapons.OrderBy(x => x.Year).ToListAsync();
+            return await _context.Weapons.OrderBy(x => x.IsIlegal).Where(x => x.IsIlegal == false).ToListAsync();
         }
 
         public async Task<IEnumerable<Weapon>> GetWeaponsByTypeAsync(string type)

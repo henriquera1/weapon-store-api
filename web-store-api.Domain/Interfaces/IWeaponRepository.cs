@@ -12,7 +12,7 @@ namespace web_store_api.Domain.Interfaces
     {
         Task<IEnumerable<Weapon>> GetWeaponsAsync(WeaponsParameters weaponsParameters);
         Task<IEnumerable<Weapon>> GetWeaponsByTypeAsync(string type);
-        Task<IEnumerable<Weapon>> GetWeaponsByYearAsync();
+        Task<IEnumerable<Weapon>> GetWeaponsByIlegalAsync();
         Task<Weapon> GetWeaponByIdAsync(int? id);
         Task<Weapon> CreateAsync(Weapon weapon);
         Task<Weapon> UpdateAsync(Weapon weapon);

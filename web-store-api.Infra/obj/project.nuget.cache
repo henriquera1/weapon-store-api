@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HfZmD/XzRddtkR+81hJN6TSgmswrWIjwSr8evIa38YdflNNyELON1WFsd1udouW8h76SYTLaBp+EKMVZGfOw+Q==",
+  "dgSpecHash": "5GcFFCkkMQPnX/ECL7mqmLRrTfhHExOe/QjclxlyecrRcecmnWlGyp5c93kAoCL6f/lK9i0QPUfjfH1X28/djw==",
   "success": true,
   "projectFilePath": "C:\\Users\\henri\\source\\repos\\henriquera1\\weapon-store-api\\web-store-api.Infra\\web-store-api.Infra.csproj",
   "expectedPackageFiles": [
@@ -32,10 +32,7 @@
     "C:\\Users\\henri\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.1\\system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "C:\\Users\\henri\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\henri\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\henri\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\henri\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
